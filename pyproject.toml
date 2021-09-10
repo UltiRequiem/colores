@@ -1,9 +1,15 @@
 [tool.poetry]
 name = "colores"
-version = "0.1.1"
+version = "0.1.2"
 description = "A Wrapper for Colorama"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/UltiRequiem/colores"
+repository = "https://github.com/UltiRequiem/colores"
+keywords = ["utilities","utils", "aesthetic", "colors"]
+include = ["LICENSE"]
+
 
 [tool.poetry.dependencies]
 python = "^3.7"
