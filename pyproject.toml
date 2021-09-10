@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "colorinchi"
-version = "0.1.0"
+name = "colores"
+version = "0.1.1"
 description = "A Wrapper for Colorama"
 authors = ["Eliaz Bobadilla <eliaz.bobadilladev@gmail.com>"]
 license = "MIT"

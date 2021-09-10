@@ -32,7 +32,7 @@ def colorized_print(
     """
     Print the text with colors.
     """
-    print(f"{brightness}{color}{text}{colorama.Style.RESET_ALL}", **kwargs)
+    print(f"{brightness}{color} {text}{colorama.Style.RESET_ALL}", **kwargs)
 
 
 def error_no_traceback(
@@ -41,5 +41,5 @@ def error_no_traceback(
     """
     Print the text with colors and exit the program without traceback.
     """
-    print(f"{brightness}{color}{text}{colorama.Style.RESET_ALL}", **kwargs)
+    colorized_print(text, color, brightness, **kwargs)
     sys.exit(0)
