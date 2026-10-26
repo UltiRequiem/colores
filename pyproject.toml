@@ -12,13 +12,13 @@ include = ["LICENSE"]
 
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.9"
 colorama = "^0.4.4"
 
-[tool.poetry.dev-dependencies]
-pylint = "^2.10.2"
-black = "^21.8b0"
-pytest = "^6.2.5"
+[tool.poetry.group.dev.dependencies]
+pylint = "*"
+black = "*"
+pytest = "*"
 chuy = "^1.3.0"
 
 [tool.chuy]
