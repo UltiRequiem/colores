@@ -1,3 +1,5 @@
+"""Simplified colorama helpers."""
+
 import sys
 
 import colorama
